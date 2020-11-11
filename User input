@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter user data</p>
+
+<form id="frm1" action="/action_page.php">
+  Age: <input type="text" name="fname"><br>
+  gender: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+  document.getElementById("frm1").submit();
+}
+</script>
+
+</body>
+</html>
